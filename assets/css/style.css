@@ -1,0 +1,49 @@
+/* font from http://www.dafont.com/star-jedi.font */
+@font-face {
+  font-family: 'Starjedi';
+  src: url('../fonts/Starjedi.ttf');
+}
+
+body {
+  font-family: 'Starjedi', 'Georgia', serif;
+}
+
+body{
+  background: #000 url("../images/background2.png") no-repeat fixed center; 
+  color: black;
+  background-size: cover;
+}
+
+.character-main {
+  height: 160px;
+  width: 200px;
+  float: left;
+}
+
+#char-select > .character-main {
+  color: grey;
+  background-color: white;
+  border: 2px solid green;
+}
+
+#char-your > .character-main {
+  background-color: white;
+  border: 2px solid green;
+}
+
+#char-enemy > .character-main {
+  background-color: red;
+  border: 2px solid black;
+  color: black;
+}
+
+#char-defender > .character-main {
+  background-color: black;
+  border: 2px solid green;
+  color: white;
+}
+
+.character-image {
+  height: 100px;
+  width: 150px;
+}
